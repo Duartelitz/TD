@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+header {
+  position: relative;
+  top: 150vh;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+nav {
+}
+nav ul {
+  display: inline-block;
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  padding: 2vh;
+}
+nav ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+nav button {
+  background-color: white;
+  border: none;
+  padding: 1vh;
+  border-radius: 1vh;
+}
+.section01 {
+  background: url(../assets/3840x2160\ Dark\ Minimal\ Mountains\ At\ Night\ 4K\ Wallpaper\,\ HD\ Minimalist\ 4K\ Wallpapers\,\ Images\,\ Photos\ and\ Background\ -\ Wallpapers\ Den.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: last center;
+  justify-content: left;
+}
+.mainprincipal {
+  width: 50vh;
+  position: relative;
+  left: 2vh;
+}
+.mainprincipal h1 {
+  font-size: 2em;
+  padding-bottom: 2vh;
+  color: white;
+}
+.mainprincipal p {
+  color: rgb(180, 180, 180);
+}
+.mainprincipal button {
+  position: relative;
+  padding: 1vh;
+  border: none;
+  border-radius: 1vh;
+  top: 2vh;
+  left: 20vh;
+}
+.section02 {
+  background-color: #313131;
+  height: 50vh;
+}
+.mainsec02 {
+  position: relative;
+  top: 6vh;
+}
+.mainsec02 img {
+  position: relative;
+  float: left;
+  width: 20vh;
+}
+.mainsec02 h2 {
+  color: white;
+}
+.mainsec02 p {
+  color: rgb(180, 180, 180);
+}
+.section03{
+    background-color: #313131;
+} 
+.section03 img{
+    width: 30vh; 
+    border-radius: 1vh;
+    padding: 2vh;
+}
+.mainsec03 h2 { 
+    color: white;
+    padding: 2vh;
+} 
+.mainsec03  #svlist { 
+    position: relative; 
+    float: right; 
+    right: 6vh; 
+    color: rgb(172, 172, 172);
+ 
+}
