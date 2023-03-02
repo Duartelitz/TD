@@ -41,10 +41,11 @@ nav button {
   height: 50vh;
   display: flex;
   align-items: last center;
-  justify-content: left;
+  justify-content: left; 
+  width: 100%;
 }
 .mainprincipal {
-  width: 50vh;
+  width: 100%;
   position: relative;
   left: 2vh;
 }
@@ -66,7 +67,8 @@ nav button {
 }
 .section02 {
   background-color: #313131;
-  height: 50vh;
+  height: 50vh; 
+  width: 100%;
 }
 .mainsec02 {
   position: relative;
@@ -84,7 +86,8 @@ nav button {
   color: rgb(180, 180, 180);
 }
 .section03{
-    background-color: #313131;
+    background-color: #313131; 
+    width: 100%;
 } 
 .section03 img{
     width: 30vh; 
