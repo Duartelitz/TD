@@ -5,15 +5,19 @@
   box-sizing: border-box;
 }
 body {
-  position: relative;
+  position: relative; 
+  background: url(../assets/Mountains\ Sunset.jfif) ; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
 }
 header {
   position: relative;
-  top: 150vh;
-  background-color: rgba(0, 0, 0, 0.582);
+  
+  background-color:transparent;
 }
-nav {
-}
+
 nav ul {
   display: inline-block;
   width: 100%;
@@ -23,13 +27,13 @@ nav ul li {
   padding: 2vh;
 }
 nav ul li a {
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
 }
 nav button {
-  background-color: white;
-  border: none;
+  background-color: transparent;
+  border: 1px solid black;
   padding: 1vh;
   border-radius: 1vh;
 }
@@ -43,6 +47,12 @@ nav button {
   align-items: last center;
   justify-content: left; 
   width: 100%;
+} 
+.wppbutton {
+  height:  10vh; 
+  position: fixed; 
+  right: 0;
+  bottom: 0;
 }
 .mainprincipal {
   width: 100%;
@@ -56,6 +66,7 @@ nav button {
 }
 .mainprincipal p {
   color: rgb(180, 180, 180);
+
 }
 .mainprincipal button {
   border: 1px solid white;
